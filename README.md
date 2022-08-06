@@ -1,5 +1,6 @@
 # candy-appliance-card
 A picture elements card for the unofficial Home Assistant Candy component, currently it only supports washing machines.
+
 ![alt text](https://i.imgur.com/V0iSZmj.png)
 ![alt text](https://i.imgur.com/37a9yIx.png)
 
