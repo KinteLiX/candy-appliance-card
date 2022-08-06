@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="559.37012"
+   height="793.70081"
+   viewBox="0 0 559.37012 793.70081"
+   sodipodi:docname="pre-wash-on.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="pre-wash-on.png"
+   inkscape:export-xdpi="17.848648"
+   inkscape:export-ydpi="17.848648"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2036">
+      <path
+         d="m 279.4196,134.7756 h 13.78378 v 11.158 H 279.4196 Z"
+         id="path2034" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2046">
+      <path
+         d="m 279.36,134.7156 h 13.92001 v 12 H 279.36 Z"
+         id="path2044" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#000000"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.84100809"
+     inkscape:cx="147.4421"
+     inkscape:cy="359.68738"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="43033251 co e_cso e 5d_5t itdeenesfr"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,793.7008)">
+    <g
+       id="g3359"
+       transform="matrix(29.634709,0,0,29.634709,-8269.4693,-3845.9963)"
+       style="fill:#ffffff">
+      <g
+         id="g2030"
+         style="fill:#ffffff">
+        <g
+           id="g2032"
+           clip-path="url(#clipPath2036)"
+           style="fill:#ffffff">
+          <path
+             d="m 284.8982,137.6486 c -0.6175,0.233 -1.5541,0.397 -2.2252,0.401 -0.5648,0.002 -1.1246,-0.103 -1.6655,-0.266 l 0.3968,-2.216 7.2791,-0.001 0.3222,1.81 c -0.4375,-0.124 -0.8889,-0.187 -1.3443,-0.192 -0.8501,-0.01 -1.9667,0.182 -2.7631,0.464 z m 5.2031,0.931 -0.6801,-3.864 h -8.7557 l -1.2916,7.334 c -0.1262,0.566 0.6553,0.85 0.8442,0.157 0.2177,-1.216 0.4335,-2.432 0.6513,-3.646 0.5885,0.171 1.1931,0.277 1.8056,0.274 0.7616,-0.004 1.7857,-0.185 2.4867,-0.45 0.7139,-0.251 1.732,-0.421 2.4936,-0.415 0.5171,0.006 1.0232,0.101 1.5074,0.282 0.0288,0.162 0.0576,0.325 0.0875,0.487 0.1869,0.695 0.9774,0.408 0.8511,-0.159"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path2038" />
+        </g>
+      </g>
+      <g
+         id="g2040"
+         style="fill:#ffffff">
+        <g
+           id="g2042"
+           clip-path="url(#clipPath2046)"
+           style="fill:#ffffff">
+          <g
+             id="g2048"
+             transform="matrix(0.9942857,0,0,1,279.36,134.7156)"
+             style="fill:#ffffff">
+            <text
+               xml:space="preserve"
+               transform="matrix(1,0,0,-1,2.5273,5.4449)"
+               style="font-variant:normal;font-weight:normal;font-size:6.5984px;font-family:Square721DmNormal;-inkscape-font-specification:Square721DmNormal;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2052"><tspan
+                 x="0 4.5271621 7.6356683"
+                 y="0"
+                 sodipodi:role="line"
+                 id="tspan2050">Pre</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
