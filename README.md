@@ -8,3 +8,6 @@ A picture elements card for the unofficial Home Assistant Candy component, curre
 4. Create a new picture elements card and insert the code for your appliance.
 
 You might need to change some of the values in the picture elements card and you might have to add more icons to config/www/candy-icons if your appliance has additional programs for instance.
+
+# Troubleshooting
+If your image(s) don't seem to update, try adding "?=v1" after the image extension to force an update.
