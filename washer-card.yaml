@@ -205,7 +205,7 @@ elements:
     entity: sensor.wash_cycle_status
     image: /local/candy-icons/easy-iron-off.svg
     state_image:
-      Iron dry: /local/candy-icons/easy-iron-on.svg
+      Drying: /local/candy-icons/easy-iron-on.svg
     style:
       top: 63%
       left: 70%
