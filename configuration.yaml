@@ -6,9 +6,8 @@ sensor:
        friendly_name: "Washer Time Display"
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
-         {% elif is_state('sensor.washing_machine', 'stopped') %}
-         {% elif is_state('sensor.washing_machine', 'finished') %}
-         {% elif is_state('sensor.washing_machine', 'idle') %}
+         {% elif is_state('sensor.washing_machine', 'Finished') %}
+         {% elif is_state('sensor.washing_machine', 'Idle') %}
 
          {% else %}
          {{ state_attr('sensor.washing_machine', 'remaining_minutes') }}
@@ -29,6 +28,7 @@ sensor:
        friendly_name: "Washer Spin Speed"
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
+         {% elif is_state('sensor.washing_machine', 'Idle') %}
          
          {% else %}
          {{ state_attr('sensor.washing_machine', 'spin_speed') }}
@@ -39,6 +39,7 @@ sensor:
        friendly_name: "Washer Temperature"
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
+         {% elif is_state('sensor.washing_machine', 'Idle') %}
          
          {% else %}
          {{ state_attr('sensor.washing_machine', 'temperature') }}

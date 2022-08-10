@@ -226,7 +226,7 @@ elements:
     entity: sensor.wash_cycle_status
     image: /local/candy-icons/spin-off.svg
     state_image:
-      Spin: /local/candy-icons/spin-on.png
+      Spin: /local/candy-icons/spin-on.svg
     style:
       top: 63%
       left: 90%
@@ -324,6 +324,5 @@ elements:
       color: '#FF0000'
       font-family: segment7
       font-size: 39px
-      left: 67%
+      left: 50%
       top: 45%
-      transform: translate(-200%,-50%)
