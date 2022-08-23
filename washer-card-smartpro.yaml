@@ -1,5 +1,5 @@
 type: picture-elements
-image: /local/washer-card-bg.png
+image: /local/washer-card-smartpro-bg.png
 elements:
   - type: conditional
     conditions:
@@ -7,7 +7,7 @@ elements:
         state: '1'
     elements:
       - type: image
-        image: /local/candy-icons/cottons.svg
+        image: /local/candy-icons-smartpro/cottons.svg
         style:
           top: 45%
           left: 30%
@@ -19,7 +19,7 @@ elements:
         state: '2'
     elements:
       - type: image
-        image: /local/candy-icons/eco-40-60.svg
+        image: /local/candy-icons-smartpro/eco-40-60.svg
         style:
           top: 45%
           left: 30%
@@ -31,7 +31,7 @@ elements:
         state: '3'
     elements:
       - type: image
-        image: /local/candy-icons/jeans.svg
+        image: /local/candy-icons-smartpro/jeans.svg
         style:
           top: 45%
           left: 30%
@@ -43,7 +43,7 @@ elements:
         state: '4'
     elements:
       - type: image
-        image: /local/candy-icons/wool-hand-wash.svg
+        image: /local/candy-icons-smartpro/wool-hand-wash.svg
         style:
           top: 45%
           left: 30%
@@ -55,7 +55,7 @@ elements:
         state: '5'
     elements:
       - type: image
-        image: /local/candy-icons/synthetic-and-coloured.svg
+        image: /local/candy-icons-smartpro/synthetic-and-coloured.svg
         style:
           top: 45%
           left: 30%
@@ -67,7 +67,7 @@ elements:
         state: '6'
     elements:
       - type: image
-        image: /local/candy-icons/rinse.svg
+        image: /local/candy-icons-smartpro/rinse.svg
         style:
           top: 45%
           left: 30%
@@ -79,7 +79,7 @@ elements:
         state: '7'
     elements:
       - type: image
-        image: /local/candy-icons/drain-and-spin.svg
+        image: /local/candy-icons-smartpro/drain-and-spin.svg
         style:
           top: 45%
           left: 30%
@@ -91,7 +91,7 @@ elements:
         state: '8'
     elements:
       - type: image
-        image: /local/candy-icons/delicate.svg
+        image: /local/candy-icons-smartpro/delicate.svg
         style:
           top: 45%
           left: 30%
@@ -103,7 +103,7 @@ elements:
         state: '9'
     elements:
       - type: image
-        image: /local/candy-icons/sport-plus.svg
+        image: /local/candy-icons-smartpro/sport-plus.svg
         style:
           top: 45%
           left: 30%
@@ -115,7 +115,7 @@ elements:
         state: '10'
     elements:
       - type: image
-        image: /local/candy-icons/hygiene-plus.svg
+        image: /local/candy-icons-smartpro/hygiene-plus.svg
         style:
           top: 45%
           left: 30%
@@ -127,7 +127,7 @@ elements:
         state: '11'
     elements:
       - type: image
-        image: /local/candy-icons/rapid.svg
+        image: /local/candy-icons-smartpro/rapid.svg
         style:
           top: 45%
           left: 30%
@@ -139,7 +139,7 @@ elements:
         state: '12'
     elements:
       - type: image
-        image: /local/candy-icons/mixed-and-coloured.svg
+        image: /local/candy-icons-smartpro/mixed-and-coloured.svg
         style:
           top: 45%
           left: 30%
@@ -151,7 +151,7 @@ elements:
         state: '13'
     elements:
       - type: image
-        image: /local/candy-icons/perfect-cotton.svg
+        image: /local/candy-icons-smartpro/perfect-cotton.svg
         style:
           top: 45%
           left: 30%
@@ -163,7 +163,7 @@ elements:
         state: '14'
     elements:
       - type: image
-        image: /local/candy-icons/special.svg
+        image: /local/candy-icons-smartpro/special.svg
         style:
           top: 45%
           left: 30%
@@ -171,9 +171,9 @@ elements:
           image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/wash-off.svg
+    image: /local/candy-icons-smartpro/wash-off.svg
     state_image:
-      Wash: /local/candy-icons/wash-on.svg
+      Wash: /local/candy-icons-smartpro/wash-on.svg
     style:
       top: 30%
       left: 90%
@@ -181,9 +181,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/steam-off.svg
+    image: /local/candy-icons-smartpro/steam-off.svg
     state_image:
-      Steam: /local/candy-icons/steam-on.svg
+      Steam: /local/candy-icons-smartpro/steam-on.svg
     style:
       top: 30%
       left: 70%
@@ -191,9 +191,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/easy-iron-off.svg
+    image: /local/candy-icons-smartpro/easy-iron-off.svg
     state_image:
-      Drying: /local/candy-icons/easy-iron-on.svg
+      Drying: /local/candy-icons-smartpro/easy-iron-on.svg
     style:
       top: 63%
       left: 70%
@@ -201,10 +201,10 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/rinse-off.svg
+    image: /local/candy-icons-smartpro/rinse-off.svg
     state_image:
-      Rinse: /local/candy-icons/rinse-on.svg
-      Last rinse: /local/candy-icons/rinse-on.svg
+      Rinse: /local/candy-icons-smartpro/rinse-on.svg
+      Last rinse: /local/candy-icons-smartpro/rinse-on.svg
     style:
       top: 63%
       left: 80%
@@ -212,9 +212,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/spin-off.svg
+    image: /local/candy-icons-smartpro/spin-off.svg
     state_image:
-      Spin: /local/candy-icons/spin-on.svg
+      Spin: /local/candy-icons-smartpro/spin-on.svg
     style:
       top: 63%
       left: 90%
@@ -222,9 +222,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.wash_cycle_status
-    image: /local/candy-icons/pre-wash-off.svg
+    image: /local/candy-icons-smartpro/pre-wash-off.svg
     state_image:
-      Pre-wash: /local/candy-icons/pre-wash-on.svg
+      Pre-wash: /local/candy-icons-smartpro/pre-wash-on.svg
     style:
       top: 30%
       left: 80%
@@ -232,19 +232,19 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.washing_machine
-    image: /local/candy-icons/wi-fi-off.svg
+    image: /local/candy-icons-smartpro/wi-fi-off.svg
     state_image:
-      Idle: /local/candy-icons/wi-fi-on.svg
-      Running: /local/candy-icons/wi-fi-on.svg
-      Stopped: /local/candy-icons/wi-fi-on.svg
-      Finished: /local/candy-icons/wi-fi-on.svg
+      Idle: /local/candy-icons-smartpro/wi-fi-on.svg
+      Running: /local/candy-icons-smartpro/wi-fi-on.svg
+      Stopped: /local/candy-icons-smartpro/wi-fi-on.svg
+      Finished: /local/candy-icons-smartpro/wi-fi-on.svg
     style:
       top: 89%
       left: 31%
       width: 5%
       image-rendering: crisp
   - type: image
-    image: /local/candy-icons/spin.svg
+    image: /local/candy-icons-smartpro/spin.svg
     style:
       top: 89%
       left: 95%
@@ -252,9 +252,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.washing_machine
-    image: /local/candy-icons/lock-off.svg
+    image: /local/candy-icons-smartpro/lock-off.svg
     state_image:
-      Running: /local/candy-icons/lock-on.svg
+      Running: /local/candy-icons-smartpro/lock-on.svg
     style:
       top: 89%
       left: 50%
@@ -262,9 +262,9 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.washing_machine
-    image: /local/candy-icons/none.svg
+    image: /local/candy-icons-smartpro/none.svg
     state_image:
-      Running: /local/candy-icons/play.svg
+      Running: /local/candy-icons-smartpro/play.svg
     style:
       top: 89%
       left: 11%
@@ -272,11 +272,11 @@ elements:
       image-rendering: crisp
   - type: image
     entity: sensor.washing_machine
-    image: /local/candy-icons/none.svg
+    image: /local/candy-icons-smartpro/none.svg
     state_image:
-      Stopped: /local/candy-icons/pause.svg
-      Idle: /local/candy-icons/pause.svg
-      Finished: /local/candy-icons/pause.svg
+      Stopped: /local/candy-icons-smartpro/pause.svg
+      Idle: /local/candy-icons-smartpro/pause.svg
+      Finished: /local/candy-icons-smartpro/pause.svg
     style:
       top: 89%
       left: 11%
@@ -291,7 +291,7 @@ elements:
       left: 87%
       top: 90%
   - type: image
-    image: /local/candy-icons/temperature.svg
+    image: /local/candy-icons-smartpro/temperature.svg
     style:
       top: 89%
       left: 76%
