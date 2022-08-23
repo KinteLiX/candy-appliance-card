@@ -7,7 +7,7 @@ elements:
         state: '1'
     elements:
       - type: image
-        image: /local/candy-icons/wi-fi.svg
+        image: /local/candy-icons/cottons.svg
         style:
           top: 45%
           left: 30%
@@ -19,7 +19,7 @@ elements:
         state: '2'
     elements:
       - type: image
-        image: /local/candy-icons/cottons.svg
+        image: /local/candy-icons/eco-40-60.svg
         style:
           top: 45%
           left: 30%
@@ -31,7 +31,7 @@ elements:
         state: '3'
     elements:
       - type: image
-        image: /local/candy-icons/eco-40-60.svg
+        image: /local/candy-icons/jeans.svg
         style:
           top: 45%
           left: 30%
@@ -43,7 +43,7 @@ elements:
         state: '4'
     elements:
       - type: image
-        image: /local/candy-icons/jeans.svg
+        image: /local/candy-icons/wool-hand-wash.svg
         style:
           top: 45%
           left: 30%
@@ -55,7 +55,7 @@ elements:
         state: '5'
     elements:
       - type: image
-        image: /local/candy-icons/wool-hand-wash.svg
+        image: /local/candy-icons/synthetic-and-coloured.svg
         style:
           top: 45%
           left: 30%
@@ -67,7 +67,7 @@ elements:
         state: '6'
     elements:
       - type: image
-        image: /local/candy-icons/synthetic-and-coloured.svg
+        image: /local/candy-icons/rinse.svg
         style:
           top: 45%
           left: 30%
@@ -79,7 +79,7 @@ elements:
         state: '7'
     elements:
       - type: image
-        image: /local/candy-icons/rinse.svg
+        image: /local/candy-icons/drain-and-spin.svg
         style:
           top: 45%
           left: 30%
@@ -91,7 +91,7 @@ elements:
         state: '8'
     elements:
       - type: image
-        image: /local/candy-icons/drain-and-spin.svg
+        image: /local/candy-icons/delicate.svg
         style:
           top: 45%
           left: 30%
@@ -103,7 +103,7 @@ elements:
         state: '9'
     elements:
       - type: image
-        image: /local/candy-icons/delicate.svg
+        image: /local/candy-icons/sport-plus.svg
         style:
           top: 45%
           left: 30%
@@ -115,7 +115,7 @@ elements:
         state: '10'
     elements:
       - type: image
-        image: /local/candy-icons/sport-plus.svg
+        image: /local/candy-icons/hygiene-plus.svg
         style:
           top: 45%
           left: 30%
@@ -127,7 +127,7 @@ elements:
         state: '11'
     elements:
       - type: image
-        image: /local/candy-icons/hygiene-plus.svg
+        image: /local/candy-icons/rapid.svg
         style:
           top: 45%
           left: 30%
@@ -139,7 +139,7 @@ elements:
         state: '12'
     elements:
       - type: image
-        image: /local/candy-icons/rapid.svg
+        image: /local/candy-icons/mixed-and-coloured.svg
         style:
           top: 45%
           left: 30%
@@ -151,18 +151,6 @@ elements:
         state: '13'
     elements:
       - type: image
-        image: /local/candy-icons/mixed-and-coloured.svg
-        style:
-          top: 45%
-          left: 30%
-          width: 10%
-          image-rendering: crisp
-  - type: conditional
-    conditions:
-      - entity: sensor.washer_program
-        state: '14'
-    elements:
-      - type: image
         image: /local/candy-icons/perfect-cotton.svg
         style:
           top: 45%
@@ -172,7 +160,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '15'
+        state: '14'
     elements:
       - type: image
         image: /local/candy-icons/special.svg
