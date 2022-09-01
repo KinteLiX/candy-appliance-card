@@ -14,10 +14,6 @@ sensor:
          {% set time = state_attr('sensor.washing_machine', 'remaining_minutes') | int %}
          {% if time >= 60 %}{{ time // 60 }}:{{ '{:0>2d}'.format(time%60) }} {% else %} {{time}} {% endif %}
          {% endif %}
-
-     blank:
-       friendly_name: "Blank Sensor"
-       value_template: ""
 - platform: template
   sensors:
      washer_program:
