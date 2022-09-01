@@ -46,5 +46,5 @@ sensor:
          {% elif is_state('sensor.washing_machine', 'Idle') %}
          
          {% else %}
-         {{ state_attr('sensor.washing_machine', 'temperature') }}
+         {{ state_attr('sensor.washing_machine', 'temperature') }}{{'°C'}}
          {% endif %}

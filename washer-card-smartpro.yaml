@@ -299,7 +299,6 @@ elements:
       image-rendering: crisp
   - type: state-label
     entity: sensor.washer_temperature
-    suffix: °C
     style:
       color: '#FFF'
       font-family: segment7
