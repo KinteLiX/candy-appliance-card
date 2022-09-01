@@ -11,7 +11,8 @@ sensor:
          {% elif is_state('sensor.washing_machine', 'Idle') %}
 
          {% else %}
-         {{ state_attr('sensor.washing_machine', 'remaining_minutes') }}
+         {% set time = state_attr('sensor.washing_machine', 'remaining_minutes') | int %}
+         {% if time >= 60 %}{{ time // 60 }}:{{ '{:0>2d}'.format(time%60) }} {% else %} {{time}} {% endif %}
          {% endif %}
 
      blank:
