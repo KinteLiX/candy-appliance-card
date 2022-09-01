@@ -1,9 +1,10 @@
-# Washer
+# Washer Template Sensors
 sensor:
 - platform: template
   sensors:
      washer_time_display:
        friendly_name: "Washer Time Display"
+       icon_template: mdi:progress-clock
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
          {% elif is_state('sensor.washing_machine', 'Finished') %}
@@ -20,12 +21,14 @@ sensor:
   sensors:
      washer_program:
        friendly_name: "Washer Program"
+       icon_template: mdi:tune
        value_template: >
          {{ state_attr('sensor.washing_machine', 'program') }}
 - platform: template
   sensors:
      washer_spin_speed:
        friendly_name: "Washer Spin Speed"
+       icon_template: mdi:rotate-right
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
          {% elif is_state('sensor.washing_machine', 'Idle') %}
@@ -37,6 +40,7 @@ sensor:
   sensors:
      washer_temperature:
        friendly_name: "Washer Temperature"
+       icon_template: mdi:thermometer
        value_template: >
          {% if is_state('sensor.washing_machine', 'unavailable') %}
          {% elif is_state('sensor.washing_machine', 'Idle') %}
