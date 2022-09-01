@@ -311,6 +311,6 @@ elements:
     style:
       color: '#FF0000'
       font-family: segment7
-      font-size: 39px
+      font-size: 3.85vh
       left: 50%
-      top: 45%
+      top: 45.5%
