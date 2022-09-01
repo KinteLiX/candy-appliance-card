@@ -288,7 +288,7 @@ elements:
       color: '#FFF'
       font-family: segment7
       font-size: 25px
-      left: 87%
+      left: 86.5%
       top: 90%
   - type: image
     image: /local/candy-icons-smartpro/temperature.svg
@@ -311,6 +311,6 @@ elements:
     style:
       color: '#FF0000'
       font-family: segment7
-      font-size: 3.85vh
+      font-size: 3.9vh
       left: 50%
       top: 45.5%
