@@ -4,7 +4,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '1'
+        state: '2'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/cottons.svg
@@ -16,7 +16,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '2'
+        state: '3'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/eco-40-60.svg
@@ -28,7 +28,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '3'
+        state: '4'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/jeans.svg
@@ -40,7 +40,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '4'
+        state: '5'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/wool-hand-wash.svg
@@ -52,7 +52,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '5'
+        state: '6'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/synthetic-and-coloured.svg
@@ -64,7 +64,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '6'
+        state: '7'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/rinse.svg
@@ -76,7 +76,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '7'
+        state: '8'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/drain-and-spin.svg
@@ -88,7 +88,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '8'
+        state: '9'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/delicate.svg
@@ -100,7 +100,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '9'
+        state: '10'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/sport-plus.svg
@@ -112,7 +112,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '10'
+        state: '11'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/hygiene-plus.svg
@@ -124,7 +124,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '11'
+        state: '12'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/rapid.svg
@@ -136,7 +136,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '12'
+        state: '13'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/mixed-and-coloured.svg
@@ -148,7 +148,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '13'
+        state: '14'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/perfect-cotton.svg
@@ -160,7 +160,7 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
-        state: '14'
+        state: '15'
     elements:
       - type: image
         image: /local/candy-icons-smartpro/special.svg
