@@ -231,7 +231,7 @@ elements:
     style:
       top: 89%
       left: 31%
-      width: 5%
+      width: 5.5%
       image-rendering: crisp
   - type: image
     image: /local/candy-icons-smartpro/spin.svg
@@ -254,23 +254,14 @@ elements:
     entity: sensor.washing_machine
     image: /local/candy-icons-smartpro/none.svg
     state_image:
+      Paused: /local/candy-icons-smartpro/pause.svg
+      Idle: /local/candy-icons-smartpro/pause.svg
+      Finished: /local/candy-icons-smartpro/pause.svg
       Running: /local/candy-icons-smartpro/play.svg
     style:
       top: 89%
       left: 11%
-      width: 5%
-      image-rendering: crisp
-  - type: image
-    entity: sensor.washing_machine
-    image: /local/candy-icons-smartpro/none.svg
-    state_image:
-      Stopped: /local/candy-icons-smartpro/pause.svg
-      Idle: /local/candy-icons-smartpro/pause.svg
-      Finished: /local/candy-icons-smartpro/pause.svg
-    style:
-      top: 89%
-      left: 11%
-      width: 5%
+      width: 6.5%
       image-rendering: crisp
   - type: state-label
     entity: sensor.washer_spin_speed
