@@ -23,7 +23,13 @@ sensor:
        friendly_name: "Washer Program"
        icon_template: mdi:tune
        value_template: >
+         {% if is_state_attr('sensor.washing_machine', 'remote_control', true) %}
+         1
+         {% elif is_state_attr('sensor.washing_machine', 'remote_control', false) and is_state_attr('sensor.washing_machine', 'program', 1) %}
+
+         {% else %}
          {{ state_attr('sensor.washing_machine', 'program') }}
+         {% endif %}
 - platform: template
   sensors:
      washer_spin_speed:

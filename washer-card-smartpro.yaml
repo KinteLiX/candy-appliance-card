@@ -4,6 +4,18 @@ elements:
   - type: conditional
     conditions:
       - entity: sensor.washer_program
+        state: '1'
+    elements:
+      - type: image
+        image: /local/candy-icons-smartpro/wi-fi.svg
+        style:
+          top: 45%
+          left: 30%
+          width: 10%
+          image-rendering: crisp
+  - type: conditional
+    conditions:
+      - entity: sensor.washer_program
         state: '2'
     elements:
       - type: image
