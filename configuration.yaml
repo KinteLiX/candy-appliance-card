@@ -32,6 +32,13 @@ sensor:
          {% endif %}
 - platform: template
   sensors:
+     washer_program_code:
+       friendly_name: "Washer Program Code"
+       icon_template: mdi:tune-variant
+       value_template: >
+         {{ state_attr('sensor.washing_machine', 'program_code') }}
+- platform: template
+  sensors:
      washer_spin_speed:
        friendly_name: "Washer Spin Speed"
        icon_template: mdi:rotate-right
