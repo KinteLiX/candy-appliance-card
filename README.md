@@ -17,4 +17,4 @@ You might need to change some of the values in the picture elements card and you
 # Troubleshooting
 If your image(s) don't seem to update after you replaced or changed them, try adding `?=v1` in the picture elements card after the file extension to force an update.
 
-If the program icon doesn't appear, try replacing `sensor.washer_program` with `sensor.washer_program_code` and replacing the `state:` field with the number from the `Program Code` state attribute of main washing machine sensor created by the candy integration. Sometimes the washing machine fails to send the correct program number.
+If the program icon doesn't appear, try replacing `sensor.washer_program` with `sensor.washer_program_code` and replacing the `state:` field with the number from the `Program Code` state attribute of the main washing machine sensor created by the candy integration. Sometimes the washing machine fails to send the correct program number.
